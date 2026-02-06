@@ -291,6 +291,23 @@
 
 <!-- Linking custom script -->
 <script src="script.js"></script>
+<form id="contactForm">
+    <input type="hidden" name="access_key" value="ffa0576b-d417-4d26-8cd1-91c6cf384e5b">
+
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message" required></textarea>
+
+    <button type="submit">Send Message</button>
+</form>
+
+<div id="formSuccess" style="display:none;">
+    Message sent successfully!
+</div>
+
+<div id="formError" style="display:none;">
+    Something went wrong. Try again.
+</div>
 </body>
 </html>
   
